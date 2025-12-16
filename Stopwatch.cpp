@@ -7,7 +7,7 @@ Stopwatch::Stopwatch()
 }
 
 Stopwatch::~Stopwatch() {
-    // RAII: Cleanup happens automatically
+    // Cleanup happens automatically
     // In this case, all members are automatically destroyed
 }
 

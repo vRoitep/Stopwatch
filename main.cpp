@@ -5,7 +5,7 @@
 int main() {
     std::cout << "=== Stopwatch Demo ===" << std::endl;
     
-    // Create a stopwatch (RAII - automatic cleanup on scope exit)
+   
     Stopwatch sw;
     
     std::cout << "Starting stopwatch..." << std::endl;
@@ -65,5 +65,4 @@ int main() {
     sw3.stop();
     
     return 0;
-    // RAII: All stopwatch objects are automatically cleaned up here
 }

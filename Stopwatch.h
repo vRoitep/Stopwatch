@@ -10,10 +10,10 @@ public:
     // Constructor - initializes the stopwatch
     Stopwatch();
     
-    // Destructor - RAII ensures cleanup
+    // Destructor 
     ~Stopwatch();
     
-    // Delete copy constructor and copy assignment (RAII principle)
+    // Delete copy constructor and copy assignment
     Stopwatch(const Stopwatch&) = delete;
     Stopwatch& operator=(const Stopwatch&) = delete;
     
